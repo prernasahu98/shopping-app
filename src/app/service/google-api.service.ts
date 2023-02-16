@@ -20,7 +20,7 @@ export class GoogleApiService {
 
   constructor(private readonly oAuthService: OAuthService) {
     oAuthService.configure(oAuthConfig);
-    oAuthService.logoutUrl = 'http://localhost:4200';
+    oAuthService.logoutUrl = 'https://www.google.com/accounts/Logout';
     oAuthService.loadDiscoveryDocument().then(() => {
       oAuthService.tryLoginImplicitFlow().then(() => {
         if (!oAuthService.hasValidAccessToken()) {
