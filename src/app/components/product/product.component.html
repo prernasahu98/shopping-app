@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="row-1">
+
+        <h2 (click)="onFilter()" style="cursor: pointer;margin-left: -100px;">Filter</h2>
+
+
+        <p *ngIf="filter" class="price-para" style="margin-top: 50px;margin-left: -100px">Price range:</p>
+        <p *ngIf="filter" class="price-value" style="margin-left: 40px;">Value<input type="number" [(ngModel)]="value"
+                style="margin-left: 10px;"></p>
+        <ngx-slider *ngIf="filter" [(value)]="value" [options]="options"
+            style="width: 240px;margin-left: -235px;margin-top: 140px;"></ngx-slider>
+
+    </div>
+
+
+    <div class="row" style="margin-left: 300px;margin-right: -100px;"
+        [ngStyle]="{'margin-top':filter === true ? '-200px':'-100px'}">
+        <ng-container *ngFor="let item of productList
+            | filter:value:'price'
+            | paginate:{itemsPerPage:5,currentPage:currentPage,totalItems:totalLength}">
+            <div class="card col-md-4">
+                <img src="{{item.image}}" alt="">
+
+
+                <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
+                    {{item.title}}</h5>
+                <p>{{item.style}}</p>
+                <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
+                    <em>{{item.description}}</em>
+                </p>
+                <p><em>Available Sizes:</em> {{item.availableSizes}}</p>
+                <p><strong>Price:</strong> ${{item.price}} <em *ngIf="item.isFreeShipping" style="margin-left: 40px;">
+                        Free Shipping</em>
+                </p>
+
+                <div class="d-grid gap-2 d-md-block">
+                    <button class="btn btn-primary btn-sm" (click)="addToCart(item)">Add To Cart
+                        <i class="fa-solid fa-cart-arrow-down" style="font-size: 15px;"></i>
+                    </button>&nbsp;
+                    <button routerLink="/cart" class="btn btn-success btn-sm">Go To Bag
+                        <i class="fa fa-shopping-bag" style="font-size: 15px;"></i>
+                        <div class="badge bg-danger" style="font-size: 8.5px;margin-left: -5px;">
+                            {{totalItem}}
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+    <div class="pagination">
+        <pagination-controls (pageChange)="onPageChange($event)"></pagination-controls>
+    </div>
+</div>

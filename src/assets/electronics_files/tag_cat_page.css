@@ -1,0 +1,122 @@
+/*== common css */
+.txtlonk_blue { font: 14px 'Fira Sans', sans-serif; color: #0b4e78; }
+.txt14 { font: 14px 'Fira Sans', sans-serif; }
+.mbottom { margin-bottom: 30px; }
+/*== common css */
+
+
+/*== icons css ==*/
+.ic_blg, .ic_fb, .ic_forum, .ic_gplus, .ic_in, .ic_tweet, .ic_pint, .ic_tg { background: url("https://images.moneycontrol.com/images/common/header/homepage-sprite.png?v=0.8"); display: inline-block; vertical-align: middle; height: 33px; width: 33px; }
+.ic_forum { background-position: -281px -2px; }
+.ic_fb { background-position: -324px -2px; }
+.ic_tweet { background-position: -366px -2px; }
+.ic_in { background-position: -451px -2px; }
+.ic_pint { background-position: -493px -2px; }
+.ic_blg { background-position: -535px -2px; }
+.ic_tg { background-position: -186px -516px; margin: 0 3px !important;}
+.ic_instagram_mn { background: url("https://images.moneycontrol.com/images/common/header/homepage-sprite.png?v=0.8") -80px -510px no-repeat; width: 33px; height: 33px; display: inline-block; vertical-align: middle;}
+/*== icons css ==*/
+
+
+/*== footer css ==*/
+.copyright { font: 12px 'Fira Sans', sans-serif; color: #a0a0a0; }
+.copyright .copymmv { font-size: 13px; color: #666; display: block; padding: 0 0 10px; }
+footer { background: url("https://images.moneycontrol.com/images/common/header/footerbg.jpg"); margin-top: 20px; }
+footer.ftinsde .main-wrapper { width: 1260px; }
+footer .main-wrapper { background: #d6e2e7; padding: 20px 10px; width: 1000px; }
+.main-wrapper { width: 1000px; margin: 0 auto; }
+.ic_logofooter { background: url("https://images.moneycontrol.com/images/common/header/homepage-sprite.png?v=0.8") -413px -247px; width: 150px; display: block; height: 32px; }
+footer .fsoci { position: absolute; left: 50%; margin: 0 0 0 -115px; } 
+footer .fsoci a { margin: 0 2px; }
+footer .bgwhite { padding: 15px; background: #fff; }
+.gotop { background: url("https://images.moneycontrol.com/images/common/header/homepage-sprite.png?v=0.8") -450px -43px; width: 101px; height: 21px; position: absolute; top: -21px; right: 0; display: inline-block; }
+footer.ftinsde .footleft { width: 650px; }
+.brd_b { border-bottom: 1px solid #c8c8c8; }
+footer .footleft .flinkl1 { width: 160px; margin: 0 40px 0 0; }
+footer .flinkl1 li a { padding: 2px 5px; display: block; color: #282828; font: 12px 'Fira Sans', sans-serif; }
+footer .footleft .flinkl2 { width: 170px; }
+footer .flinkl2 .flhd1 { font: 700 12px 'Fira Sans', sans-serif; color: #282828; }
+footer .flinkl2 li { margin-bottom: 2px; } 
+footer .flinkl2 li a { padding: 5px; font: 12px 'Fira Sans', sans-serif; color: #a0a0a0; }
+.tx14_blu { font: 14px 'Fira Sans', sans-serif; color: #0065a1; }
+footer .flS2 a { font: 12px/12px 'Fira Sans', sans-serif; color: #282828; }
+footer .ic_crn { background: url("https://images.moneycontrol.com/images/common/header/homepage-sprite.png?v=0.8") -6px -101px; width: 120px; height: 68px; display: inline-block; }
+footer .ic_apGl, footer .ic_apple, footer .ic_apwin { background: url("https://images.moneycontrol.com/images/common/header/homepage-sprite.png?v=0.8") -4px -43px; width: 128px; height: 38px; }
+footer .ic_apGl { background-position: -142px -43px; } 
+footer .ic_apwin { background-position: -278px -43px; width: 155px; }
+footer.ftinsde .footright { width: 420px; }
+footer .footright { width: 350px; }
+footer .ftCopy { padding: 10px 20px; }
+footer .flastLInk, footer .flastLInk a { color: #646464; font-size: 14px; }
+footer .copyright { font: 12px 'Fira Sans', sans-serif; color: #a0a0a0; }
+footer .footleft { width: 600px; }
+.flastLInk, .flastLInk a { color: #646464; font-size: 14px; }
+.footerMobile { background: #d6e2e7; padding: 10px; display: none; } 
+.footerMobile .whbg { background: #fff; } 
+.footerMobile .fresub_title { color: #0065a1; font: 900 16px 'Fira Sans', sans-serif; border-bottom: 1px solid #ececec; padding-bottom: 10px; margin-bottom: 10px; text-transform: uppercase; } 
+.footerMobile .flinklist li { display: block; float: left; width: 30%; margin-right: 1%; padding: 8px 0; border-bottom: 1px solid #dadada; }
+.footerMobile .flinklist li a { font: 13px 'Fira Sans', sans-serif; color: #282828; } 
+.footerMobile .ic_fbfter, .footerMobile .ic_gpls, .footerMobile .ic_twtr, .footerMobile .ic_tg { display: inline-block; vertical-align: middle; width: 43px; height: 43px; background: url("https://images.moneycontrol.com/images/common/header/homepage-sprite.png?v=0.8"); } 
+.footerMobile .ic_fbfter { background-position: -195px -380px; } 
+.footerMobile .ic_twtr { background-position: -246px -380px; } 
+.footerMobile .ic_tg {background-position:-234px -516px; margin: 0 !important;}
+.footerMobile .ic_fapapstr, .footerMobile .ic_fapgpl, .footerMobile .ic_fapwin { margin: 0; display: inline-block; width: 94px; height: 32px; background: url("https://images.moneycontrol.com/images/common/header/homepage-sprite.png?v=0.8"); } 
+.footerMobile .ic_fapgpl { background-position: -62px -460px; } 
+.footerMobile .ic_fapapstr { background-position: -163px -460px; } 
+.footerMobile .ic_fapwin { background-position: -262px -460px; width: 100px; }
+.bgwhite { background: #fff none repeat scroll 0 0; }
+.hide_in_desktop { display: none; }
+/*== footer css ==*/
+
+
+@media screen and (max-width: 1280px) {
+ footer.ftinsde .main-wrapper { max-width: 970px; } 
+ footer.ftinsde .footleft { width: 580px; } 
+ footer.ftinsde .footright { width: 340px; }
+}
+
+
+@media screen and (max-width:980px) {
+.ic_instagram_mn { width: 43px; height: 43px; background-position: -125px -510px; } 
+ .respons_foot_desk { display: none; } 
+ .respons_foot_mob { display: block; }
+}
+
+
+@media screen and (max-width: 767px) {
+footer { padding-bottom: 60px; }
+.footerMobile .flinklist li { width: 47%; margin-right: 2%; }
+.footer_navigation_list li .wap_ic_home {display: block; margin-top: 1px;}
+.footer_navigation_list li.active .wap_ic_home {display: none;}
+.footer_navigation_list li .wap_ic_home_active {display: none;}
+.footer_navigation_list li.active .wap_ic_home_active {display: block; margin-top: 1px;}
+.footer_navigation_list li .wap_ic_markets {display: block;}
+.footer_navigation_list li.active .wap_ic_markets {display: none;}
+.footer_navigation_list li .wap_ic_markets_active {display: none;}
+.footer_navigation_list li.active .wap_ic_markets_active {display: block;}
+.footer_navigation_list li .wap_ic_news {display: block;}
+.footer_navigation_list li.active .wap_ic_news {display: none;}
+.footer_navigation_list li .wap_ic_news_active {display: none;}
+.footer_navigation_list li.active .wap_ic_news_active {display: block;}
+.footer_navigation_list li .wap_ic_portfolio {display: block;}
+.footer_navigation_list li.active .wap_ic_portfolio {display: none;}
+.footer_navigation_list li .wap_ic_portfolio_active {display: none;}
+.footer_navigation_list li.active .wap_ic_portfolio_active {display: block;}
+.responsive_true {z-index:9999;top:0;}
+header.responsive_true .icpancakeblock.open_div {display: none !important;}
+header.responsive_true .icpancakeblock {animation: movingTop_To_Bottom 1s ease; -webkit-animation: movingTop_To_Bottom ease 1s;}
+@keyframes movingTop_To_Bottom {100% {top: 0px;}0% {top: -20px;}}
+.close_div{display:block;opacity:1;}
+.footer_navigation_list {display:flex; margin:0; padding: 10px 0;	bottom:0; position:fixed; z-index:99999;	width:100%; background-color:#000; height:35px;}
+.close_ad_div{bottom: 54px!important;animation:movingStickyBottom_To_Top 1s ease;-webkit-animation:movingStickyBottom_To_Top ease 1s}
+@keyframes movingStickyBottom_To_Top{100%{bottom:45px}0%{bottom:0}}
+.footer_navigation_list.close_div{display:flex;justify-content:space-evenly}
+.footer_navigation_list li{text-align:center; margin-top:2px; width:25%}
+.footer_navigation_list li a{font:10px/12px Latobold,sans-serif;color:#6a6e71;}
+.footer_navigation_list li.active a{color:#b2bab7;}
+.footer_navigation_list li a>div+div+div {margin-top: 3px}
+.footer_navigation_list, .footer_navigation_list * {box-sizing: unset;}
+.footer_navigation_list li.active a {color: #ffffff;}
+.fixednav.menu_sec_desk{ top:0px !important;}
+.ftCopy { padding: 10px 20px 110px 20px; }
+}
