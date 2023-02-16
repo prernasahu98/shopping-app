@@ -52,9 +52,4 @@ export class GoogleApiService {
     this.oAuthService.logOut();
   }
 
-  // private authHeader(): HttpHeaders {
-  //   return new HttpHeaders({
-  //     "Authorization": `Bearer ${this.oAuthService.getAccessToken()}`
-  //   })
-  // }
 }
